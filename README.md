@@ -3,6 +3,17 @@
 ## 📊 Overview
 Analyzed 180K+ orders to identify delivery inefficiencies, regional delays, and shipping performance.
 
+## 🎯 Business Problem
+
+The company is experiencing consistent delivery delays (~16% of orders) with no clear improvement trend over time. 
+
+This project aims to diagnose the root causes of these delays by analyzing:
+- Regional performance variations
+- Shipping mode inefficiencies
+- Delivery trends over time
+
+The goal is to uncover actionable insights that can help optimize logistics operations and reduce delays.
+
 ## 🛠 Tools
 SQL | Python | Power BI
 
