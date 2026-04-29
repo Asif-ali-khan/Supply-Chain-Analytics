@@ -24,6 +24,7 @@ SQL | Python | Power BI
 - Delivery time stable (~3.4–3.5 days)
 
 ## 📈 Dashboard
+
 ![Dashboard](image.png)
 
 ## 📁 Files
