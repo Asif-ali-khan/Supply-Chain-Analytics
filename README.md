@@ -34,7 +34,7 @@ This project aims to:
 ---
 
 ## 📈 Dashboard
-![Dashboard](images.png)
+![Dashboard](image.png)
 
 ---
 
