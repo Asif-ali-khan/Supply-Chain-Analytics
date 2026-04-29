@@ -1,36 +1,53 @@
 # 📦 Supply Chain Analytics Dashboard
 
-## 📊 Overview
-Analyzed 180K+ orders to identify delivery inefficiencies, regional delays, and shipping performance.
+## 📊 Project Overview
+This project analyzes supply chain performance using a real-world dataset of **180K+ orders**.  
+The objective is to identify delivery inefficiencies, regional delay patterns, and shipping performance to support better operational decisions.
+
+---
 
 ## 🎯 Business Problem
+The company is experiencing consistent delivery delays (~16% of total orders) with no clear improvement trend over time.
 
-The company is experiencing consistent delivery delays (~16% of orders) with no clear improvement trend over time. 
+This project aims to:
+- Identify key factors contributing to delivery delays  
+- Analyze regional and shipping inefficiencies  
+- Evaluate delivery performance trends over time  
+- Provide actionable insights to improve operational efficiency and customer satisfaction  
 
-This project aims to diagnose the root causes of these delays by analyzing:
-- Regional performance variations
-- Shipping mode inefficiencies
-- Delivery trends over time
+---
 
-The goal is to uncover actionable insights that can help optimize logistics operations and reduce delays.
+## 🛠 Tools & Technologies
+- **SQL** → Data extraction & analysis  
+- **Python (Pandas)** → Data cleaning & feature engineering  
+- **Power BI** → Data visualization & dashboard creation  
 
-## 🛠 Tools
-SQL | Python | Power BI
+---
 
 ## 🔍 Key Insights
-- ~16% orders delayed (1 in 6)
-- LATAM has highest delay (~16.05%)
-- Standard & Second Class are slowest (~4 days)
-- Delivery time stable (~3.4–3.5 days)
+- ~16% of orders are delayed (**1 in every 6 orders**)  
+- LATAM region shows the highest delay rate (~16.05%)  
+- Standard & Second Class shipping are the slowest (~4 days)  
+- Delivery time remains stable (~3.4–3.5 days) across years  
+- No significant improvement trend observed → optimization opportunity  
+
+---
 
 ## 📈 Dashboard
+![Dashboard](images.png)
 
-![Dashboard](image.png)
+---
 
-## 📁 Files
-- sql/analysis_queries.sql
-- python/data_cleaning.ipynb
-- powerbi/supply_chain_dashboard.pbix
-
-## 🚀 Outcome
-Identified consistent delays and optimization opportunities in logistics.
+## 📁 Project Structure
+Supply-Chain-Analytics/
+│
+├── dataset/
+├── sql/
+│ └── analysis_queries.sql
+├── python/
+│ └── data_cleaning.ipynb
+├── powerbi/
+│ └── supply_chain_dashboard.pbix
+├── images/
+│ └── dashboard_screenshot.png
+└── README.md
