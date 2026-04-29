@@ -13,7 +13,7 @@ SQL | Python | Power BI
 - Delivery time stable (~3.4–3.5 days)
 
 ## 📈 Dashboard
-![Dashboard]([images/dashboard_screenshot.png](https://github.com/Asif-ali-khan/Supply-Chain-Analytics/blob/main/image.png))
+![Dashboard](image.png)
 
 ## 📁 Files
 - sql/analysis_queries.sql
